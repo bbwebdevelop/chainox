@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px; 
+  border: 2px solid #4f46e5; 
+  color: white;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-button + .custom-button {
+  margin-left: -1rem; 
+}
+
+.custom-button:hover {
+  transform: scale(1.05);
+}
+
+.highlighted-word {
+  position: relative;
+  display: inline-block;
+}
+
+.highlighted-word::after {
+  content: '';
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  height: 2px; 
+  background: linear-gradient(90deg, #00C3FD 0%, #0194FE 50%, #04226B 100%); 
+}
+
+.menu-hover-effect {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-hover-effect::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; 
+  height: 2px; 
+  background: linear-gradient(90deg, #00C3FD 0%, #0194FE 50%, #04226B 100%); 
+  transition: width 0.3s ease-in-out; 
+}
+
+.menu-hover-effect:hover::after {
+  width: 100%; 
+  
+}
+
+.no-cursor {
+  cursor: not-allowed;
+}

@@ -1,0 +1,37 @@
+<svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_7_5320)">
+<circle cx="36" cy="21" r="17" fill="#C7E1DB" fill-opacity="0.11"/>
+</g>
+<g filter="url(#filter1_d_7_5320)">
+<path d="M43.0209 27.0244V27.0239H43.0242V22.2472C43.0242 19.9104 42.5211 18.1104 39.7893 18.1104C38.476 18.1104 37.5947 18.831 37.2349 19.5143H37.1969V18.3285H34.6067V27.0239H37.3038V22.7182C37.3038 21.5846 37.5187 20.4884 38.9226 20.4884C40.3059 20.4884 40.3265 21.7821 40.3265 22.791V27.0244H43.0209Z" fill="url(#paint0_linear_7_5320)"/>
+<path d="M30.215 18.3291H32.9153V27.0245H30.215V18.3291Z" fill="url(#paint1_linear_7_5320)"/>
+<path d="M31.564 14C30.7006 14 30 14.7006 30 15.564C30 16.4274 30.7006 17.1427 31.564 17.1427C32.4274 17.1427 33.128 16.4274 33.128 15.564C33.1275 14.7006 32.4269 14 31.564 14V14Z" fill="url(#paint2_linear_7_5320)"/>
+</g>
+<defs>
+<filter id="filter0_b_7_5320" x="-31" y="-46" width="134" height="134" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="25"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7_5320"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7_5320" result="shape"/>
+</filter>
+<filter id="filter1_d_7_5320" x="0" y="0" width="73.0242" height="73.0244" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="16"/>
+<feGaussianBlur stdDeviation="15"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.220306 0 0 0 0 0.379167 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_5320"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_5320" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_7_5320" x1="37.5335" y1="26.4554" x2="41.6172" y2="24.7259" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#3DB2E8"/>
+</linearGradient>
+<linearGradient id="paint1_linear_7_5320" x1="31.1539" y1="26.4694" x2="32.6695" y2="26.2583" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#3DB2E8"/>
+</linearGradient>
+<linearGradient id="paint2_linear_7_5320" x1="31.0876" y1="16.9421" x2="32.58" y2="16.2759" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#3DB2E8"/>
+</linearGradient>
+</defs>
+</svg>
